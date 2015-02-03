@@ -15,6 +15,7 @@
 		18F315391A80750400B74F79 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F315381A80750400B74F79 /* Images.xcassets */; };
 		18F3153C1A80750400B74F79 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18F3153A1A80750400B74F79 /* LaunchScreen.xib */; };
 		18F315481A80750400B74F79 /* recordMeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F315471A80750400B74F79 /* recordMeTests.m */; };
+		18F315521A80784700B74F79 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F315511A80784700B74F79 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		18F315411A80750400B74F79 /* recordMeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = recordMeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F315461A80750400B74F79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F315471A80750400B74F79 /* recordMeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = recordMeTests.m; sourceTree = "<group>"; };
+		18F315511A80784700B74F79 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F315521A80784700B74F79 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +68,7 @@
 		18F3151C1A80750400B74F79 = {
 			isa = PBXGroup;
 			children = (
+				18F315511A80784700B74F79 /* AVFoundation.framework */,
 				18F315271A80750400B74F79 /* recordMe */,
 				18F315441A80750400B74F79 /* recordMeTests */,
 				18F315261A80750400B74F79 /* Products */,
